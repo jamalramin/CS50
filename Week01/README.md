@@ -1,6 +1,6 @@
-# Week 1 🗓️
+# Week 0 🗓️
 
-In the first week of CS50, I learned the basics of computer science and programming.
+In the 0 week of CS50, I learned the basics of computer science and programming.
 
 ## What I learned
 
