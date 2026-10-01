@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            // TODO: Add code to check answers to questions
+
+            //here is our first function
+            function checkAnswers() {
+                // Get the selected answer for question 1
+                let answer = document.querySelector('input[name="question1"]:checked');
+                let result = document.getElementById("result");
+
+                if (!answer){
+                    result.textContent="you have to answer";
+                }
+                else if(answer.value == "Paris") {
+                    result.textContent = "correct ";
+                    result.style.color = "white";
+                    result.style.backgroundColor = "Green";
+                }
+                else {
+                    result.textContent = "incorrect";
+                    result.style.backgroundColor = "red";
+                    result.style.color = "white";
+
+                }
+            }
+
+            //here i write down the second function
+            function check_the_answer(){
+                const the_result = document.getElementById("the_result");
+
+                if(ans.value === "Ronaldo" || ans.value ==="Messi"){
+                    the_result.textContent = "You are correct";
+                }
+                else if (ans.value === "") {
+                    the_result.textContent= "Please Answer my question 😭😭";
+                }
+                else {
+                    the_result.textContent = "you are Wrong";
+                }
+
+            }
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                <h3>What is the capital of France?</h3>
+                    <input type="radio" name="question1" value="london">London</input>
+                    <input type="radio" name="question1" value="Paris">Paris</input>
+                    <input type="radio" name="question1" value="berlin">Berlin</input>
+                    <input type="radio" name="question1" value="rome">Rome</input>
+                    <input type="submit" value="Submit" onclick="checkAnswers()">
+
+                    <p id="result"></p>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+
+                <h3>Who is the best Football Player of all Time</h3>
+                <input type="text" id="ans" placeholder="Write your answer">
+                <input type="submit" value="Submit" onclick="check_the_answer()">
+                <p id="the_result"></p>
+            </div>
+        </div>
+    </body>
+</html>

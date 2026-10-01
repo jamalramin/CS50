@@ -1,0 +1,20 @@
+body {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    color:rgba(0, 81, 255, 0.815);
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 500px;
+    width: 600px;
+}
