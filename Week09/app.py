@@ -14,4 +14,6 @@ def index():
 
 @app.route("/greet")
 def greeting():
-    return render_template ("greet.html", name = request.args.get("name", 'world'))
+    name = request.args.get("name", "world")
+    number = request.args.get("number", "")
+    return render_template("phonebook.html", name=name, number=number)
