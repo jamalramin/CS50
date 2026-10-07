@@ -12,7 +12,6 @@ app.config["TEMPLATES_AUTO_RELOAD"] = True
 # Configure CS50 Library to use SQLite database
 db = SQL("sqlite:///birthdays.db")
 
-
 @app.after_request
 def after_request(response):
     """Ensure responses aren't cached"""
@@ -29,6 +28,7 @@ def index():
     <p>If you want ot add your Brith day please <a href="/birthday">Click Here</a></p>
     """)
 
+people = []
 
 @app.route("/birthday")
 def birth():
@@ -36,6 +36,12 @@ def birth():
     year = request.args.get("year")
     month = request.args.get("month")
     day = request.args.get("day")
+    if name:
+        people.append({
+            "name":name,
+            "year":year,
+            "month":month,
+            "day":day,
+        })
 
-    return render_template("index.html", name=name, year=year, month=month, day=day)
-
+    return render_template("index.html", people=people)
