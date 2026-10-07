@@ -17,7 +17,7 @@
       <div class="section">
         <h2>Add a Birthday</h2>
         <!-- TODO: Create a form for users to submit a name, a month, and a day -->
-        <form action="/birth" method="get">
+        <form action="/birthday" method="get">
           <input name="name" required autocomplete="none" placeholder="Name" />
           <input name="year" required autocomplete="none" placeholder="Year" />
           <input
@@ -40,13 +40,16 @@
               <th>Birthday</th>
             </tr>
           </thead>
+          {% for person in people %}
           <tbody>
             <!-- TODO: Loop through the database entries to display them in this table -->
-            <td>{{ name }}</td>
-            <td>{{ year }}</td>
-            <td>{{ month }}</td>
-            <td>{{ day }}</td>
+
+            <td>{{ person.name }}</td>
+            <td>{{ person.year }}</td>
+            <td>{{ person.month }}</td>
+            <td>{{ person.day }}</td>
           </tbody>
+          {% endfor %}
         </table>
       </div>
     </div>
