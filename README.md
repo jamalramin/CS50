@@ -1,7 +1,7 @@
 # CS50                                                         
 <h1>
   CS50 <img src="https://github.com/jamalramin/CS50/blob/49e1855b0d1e0c9aff7c82be2ea4f9b105d37269/89367332.jpg
-)" width="60" alt="Cat" style="vertical-align: middle;">
+" width="60" alt="Cat" style="vertical-align: middle;">
 </h1>
 
 My work and projects for Harvard's CS50: **Introduction to Computer Science.**
