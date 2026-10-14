@@ -8,10 +8,6 @@ The exercises focus on **memory, pointers, file I/O, and image manipulation** in
 
 ## Problems
 
-### Volume
-
-A program that modifies the volume of a WAV audio file.
-
 ### Filter
 
 A program that applies image filters such as grayscale, sepia, reflection, and blur to BMP images.
