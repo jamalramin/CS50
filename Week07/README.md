@@ -37,7 +37,3 @@ For Python programs:
 ```bash
 python program.py
 ```
-
-## Author
-
-CS50 student
