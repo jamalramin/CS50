@@ -53,7 +53,4 @@ Example:
 ```bash
 ./recover card.raw
 ```
-
-## Author
-
 CS50 student
