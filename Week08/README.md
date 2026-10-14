@@ -32,7 +32,3 @@ python -m http.server
 ```
 
 Then open the local server in your browser.
-
-## Author
-
-CS50 student
