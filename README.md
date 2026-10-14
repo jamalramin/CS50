@@ -1,4 +1,4 @@
-# CS50
+# CS50                                                           ![image alt](https://github.com/jamalramin/CS50/blob/49e1855b0d1e0c9aff7c82be2ea4f9b105d37269/89367332.jpg)
 
 My work and projects for Harvard's **CS50: Introduction to Computer Science**.
 
