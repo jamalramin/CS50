@@ -53,4 +53,3 @@ Example:
 ```bash
 ./recover card.raw
 ```
-CS50 student
