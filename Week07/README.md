@@ -27,7 +27,7 @@ The repository contains my solutions and exercises for Week 7 of CS50.
 For SQLite exercises:
 
 ```bash
-sqlite3 database.db
+sqlite3 favorites.db
 ```
 
 Then SQL queries can be executed directly in the SQLite shell.
@@ -35,5 +35,5 @@ Then SQL queries can be executed directly in the SQLite shell.
 For Python programs:
 
 ```bash
-python program.py
+python favorites.py
 ```
