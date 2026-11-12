@@ -1,0 +1,11 @@
+I have used the following HTML tags:
+<p></p>
+<a href=""></a>
+<div></div>
+<div class=""></div>
+<a id="" href=""></a>
+.html
+.body
+.head
+.title
+.link
