@@ -1,0 +1,24 @@
+body {
+    background-color: gray;
+    color:white;
+    padding: 20px 10px
+}
+
+.navbar {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    gap: 40px;
+    padding:20px 50px;
+    background-color:#1e90ff;
+
+
+}
+a {
+        color:white;
+          text-decoration:none;
+}
+
+#home:hover {
+    color :green;
+}
