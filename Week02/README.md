@@ -25,7 +25,6 @@ This repository contains my solutions and practice exercises from **Week 2 of CS
 
 ```text
 week02/
-│
 ├── README.md
 ├── cs50.h
 ├── cs50.c
