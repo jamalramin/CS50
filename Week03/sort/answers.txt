@@ -1,11 +1,10 @@
-sort1 uses: TODO
+sort1 uses:the sort 1 uses the   Merge Sort
+How do you know?:it is faster and it is deviding the number into 2 parts for example table1 and table2 and compare them between the parts and at the end merge both of the parts into one part
 
-How do you know?: TODO
 
-sort2 uses: TODO
+sort2 uses:   Selection Sort
+How do you know?:becuase it is comparing two number i mean arr[k] and arr[k + 1] and brings the smallest number to the begining
 
-How do you know?: TODO
 
-sort3 uses: TODO
-
-How do you know?: TODO
+sort3 uses:  Bubble  Sort
+How do you know?:it is slow and becuase it is comparing two number arr[k] and arr[k + 1] and brings the larger number to the end of the table
