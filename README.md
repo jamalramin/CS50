@@ -31,24 +31,24 @@ Each lecture/week is organized in its own folder:
 - `Week10/` — Week 10
 - `Week11/` — Final Project
 
-## Naming Convitions in CS50 Course
+## Naming Convitions in my CS50 Course
 
 There is deffrent kinds of naming in Soft Development which we can name the Variables , Classes , Functions and othe elemnts.
 The most common naming conventions are:
 
-#camelCase
-*PascalCase
-*snake_case
-*SCREAMING_SNAKE_CASE
-*kebab-case
+* camelCase
+* PascalCase
+* snake_case
+* SCREAMING_SNAKE_CASE
+* kebab-case
 
 Each of the above conventions has its own usage. I am going to describe all of them Step by Step.
 
-*camelCase : In this kind of naming the first letter is small but the other words are going to be big, and also not to forget we can't use any special character. Example : firstName , userName, userPassword, isUserAdmin and so on. We are using this type of naming mostly in Variables, Functions, methods, ParametersObject and properties
+* camelCase : In this kind of naming the first letter is small but the other words are going to be big, and also not to forget we can't use any special character. Example : firstName , userName, userPassword, isUserAdmin and so on. We are using this type of naming mostly in Variables, Functions, methods, ParametersObject and properties
 
-*PascalCase : In this type the first letter of every word should be big. For Exmaple: UserName, UserInfo, TheUserValidation and so on. The PascalCase is mostly used in Classes, Interfaces, Enums, Types and constructors.
+* PascalCase : In this type the first letter of every word should be big. For Exmaple: UserName, UserInfo, TheUserValidation and so on. The PascalCase is mostly used in Classes, Interfaces, Enums, Types and constructors.
 
-*snake_case : 
+* snake_case : 
 
 
 ## 🎯 Goal
