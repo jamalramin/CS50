@@ -5,31 +5,31 @@
 
 int main(void){
 
-    long cardNumber = get_long("Number: ");
+    long card_number = get_long("Number: ");
 
-    long temp = cardNumber;
-    int numDigits = 0;
+    long temp = card_number;
+    int num_digits = 0;
 
     while(temp > 0){
         temp /= 10;
-        numDigits++;
+        num_digits++;
     }
 
-    if (numDigits == 16 ) {
+    if (num_digits == 16 ) {
         printf("this card number is: %04ld-%04ld-%04ld-%04ld and its valid\n",
-            cardNumber / 1000000000000,
-            (cardNumber / 100000000) % 10000,
-            (cardNumber / 10000) % 10000,
-            cardNumber % 10000
+            card_number / 1000000000000,
+            (card_number / 100000000) % 10000,
+            (card_number / 10000) % 10000,
+            card_number % 10000
         );
     }
 
     else{
         printf("Card Number: %04ld-%04ld-%04ld-%04ld and its not a valid cardnumber\n",
-            cardNumber / 1000000000000,
-            (cardNumber / 100000000) % 10000,
-            (cardNumber / 10000) % 10000,
-            cardNumber % 10000
+            card_number / 1000000000000,
+            (card_number / 100000000) % 10000,
+            (card_number / 10000) % 10000,
+            card_number % 10000
             
         );
     }
