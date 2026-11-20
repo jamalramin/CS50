@@ -36,7 +36,7 @@ Each lecture/week is organized in its own folder:
 There is deffrent kinds of naming in Soft Development which we can name the Variables , Classes , Functions and othe elemnts.
 The most common naming conventions are:
 
-*camelCase
+#camelCase
 *PascalCase
 *snake_case
 *SCREAMING_SNAKE_CASE
@@ -44,7 +44,6 @@ The most common naming conventions are:
 
 Each of the above conventions has its own usage. I am going to describe all of them Step by Step.
 
-## Different Naming Conventions
 *camelCase : In this kind of naming the first letter is small but the other words are going to be big, and also not to forget we can't use any special character. Example : firstName , userName, userPassword, isUserAdmin and so on. We are using this type of naming mostly in Variables, Functions, methods, ParametersObject and properties
 
 *PascalCase : In this type the first letter of every word should be big. For Exmaple: UserName, UserInfo, TheUserValidation and so on. The PascalCase is mostly used in Classes, Interfaces, Enums, Types and constructors.
