@@ -1,6 +1,6 @@
 from PIL import Image, ImageFilter
 
-not_Edited = Image.open("nature.jpg")
+not_edited = Image.open("nature.jpg")
 
 # this line makes the picture blury 
 # edited = not_Edited.filter(ImageFilter.BoxBlur(15))
