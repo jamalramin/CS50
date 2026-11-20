@@ -14,13 +14,13 @@ int main(void){
     printf("Hey,%s your age is %i, you chose the number %i !! \n",name, age, number);
 
 
-    int randomNumber = rand()%3 + 1;
+    int random_number = rand()%3 + 1;
 
-    if(number == randomNumber){
+    if(number == random_number){
         printf("Congratulation, you have guess the number correctly\n");
     }
     else{
-        printf("Sorry, you have guess the number incorrectly, the correct number was %i\n", randomNumber);
+        printf("Sorry, you have guess the number incorrectly, the correct number was %i\n", random_number);
     }
 
     //this part of the code is my own implementation of the mario pyramid problem from cs50 course
