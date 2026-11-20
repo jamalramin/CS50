@@ -54,6 +54,9 @@ Each of the above conventions has its own usage. I am going to describe all of t
 
 * kebab-case: In kebab-case, all words are written in lowercase and separated by hyphens. for Example: user-name, user-password, user-details, the-chatbot and etc. this kind of naming is used in CSS classes, HTML attributes, URLs, File and directory names.
 
+<h1>Which Standerd will i use ?</h1>
+I am going to use the snake_case in my CS50 projects and directories because it is a industry standard for C development. The sepration of the words is clear and its also easier to recognize the class names or varialbe names with snake_case standard. 
+
 ## 🎯 Goal
 
 Learn the fundamentals of computer science and improve my programming skills through CS50.
