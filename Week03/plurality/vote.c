@@ -85,11 +85,11 @@ int main(void)
     string vote2 = get_string("vote 2: ");
     string vote3 = get_string("vote 3: ");
 
-    string allVote[] = {vote1, vote2, vote3};
+    string all_vote[] = {vote1, vote2, vote3};
 
     for (int i = 0; i < 3; i++){
         for(int j = 0; j < 3; j++){
-            if (strcmp(allVote[i], condidate[j] ) == 0){
+            if (strcmp(all_vote[i], condidate[j] ) == 0){
                 votes[j]++ ;
             }
 
