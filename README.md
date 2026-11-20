@@ -48,8 +48,11 @@ Each of the above conventions has its own usage. I am going to describe all of t
 
 * PascalCase : In this type the first letter of every word should be big. For Exmaple: UserName, UserInfo, TheUserValidation and so on. The PascalCase is mostly used in Classes, Interfaces, Enums, Types and constructors.
 
-* snake_case : 
+* snake_case : In snake_case, all words are written in lowercase and separated by underscores. For Example: the_admin_panel, is_user_varified, the_contact_form and so on. The usage is most likely in Variables and functions in Python, Database columns, File names and Configuration values.
 
+* SCREAMING_SNAKE_CASE: This kind of naming is similar to the snake_case but all of the letters are written in Uppercase. for instance THE_USERNAME, MY_NAVBAR, THE_CLIENT_FORM and etc. they are used in Global constants, Configuration constants and Environment variables.
+
+* kebab-case: In kebab-case, all words are written in lowercase and separated by hyphens. for Example: user-name, user-password, user-details, the-chatbot and etc. this kind of naming is used in CSS classes, HTML attributes, URLs, File and directory names.
 
 ## 🎯 Goal
 
