@@ -12,14 +12,14 @@ int main(void)
 
     string namee = get_string("What is your name?: ");
 
-    int number_Of_Hello = get_int("How many times should i say the word: ");
+    int number_of_hello = get_int("How many times should i say the word: ");
 
     
 
-    while (number_Of_Hello > 0){
+    while (number_of_hello > 0){
         printf(" %s!\n", namee);
         continue;
-        number_Of_Hello--;
+        number_of_hello--;
     }
 
 }
