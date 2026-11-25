@@ -29,7 +29,6 @@
 * Artificial Intelligence
 * Software Development
 * Computer Science Fundamentals
-* Future Learning
 
 ## Final Thoughts
 
