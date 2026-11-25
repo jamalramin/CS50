@@ -11,8 +11,6 @@ This repository contains my coursework, exercises, and projects completed during
 
 My work and projects for Harvard's **CS50: Introduction to Computer Science**.
 
-##📚 Course
-
 This repository contains my coursework, exercises, and projects completed during CS50.
 
 ## 📂 Structure
