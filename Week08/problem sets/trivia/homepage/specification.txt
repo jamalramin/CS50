@@ -9,3 +9,13 @@ I have used the following HTML tags:
 .head
 .title
 .link
+
+this part is for css
+color
+margin
+padding
+display
+width
+
+function are also used in javascript
+i have used also bootstrap color-danger
